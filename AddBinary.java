@@ -3,7 +3,8 @@ public class AddBinary {
     public static void main(String[] args) {
         //System.out.println(addBinary("1010", "01"));
         String a ="1010";
-        System.out.println(a.charAt(1)-'1');
+        String b= "01";
+        System.out.println(addBinary(a,b));
        
 
     }
